@@ -1,15 +1,15 @@
 
 public class Persona {
 	
-	private String nombre;
+	private String name;
 
-	public Persona(String nombre) {
+	public Persona(String name) {
 		super();
-		this.nombre = nombre;
+		this.name = name;
 	}
 	
 	public String getNombre(){
-		return nombre;
+		return name;
 	}
 
 }
